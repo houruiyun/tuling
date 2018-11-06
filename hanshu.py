@@ -25,6 +25,7 @@ if  num.isdigit() and 100<=int(num) <= 999:
         shi = num%100//10
         ge = num%10
         print('这个三位数的个位是{}十位是{}百位是{}'.format(ge,shi,bai))
+        print('这个三位数的个位是%s十位是%s百位是%s' % ge,shi,bai)
     if num == random_num:
         print('你中奖了',random_num)
     if num < (random_num):
